@@ -14,71 +14,70 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Economics as a Science</FONT></span>
+  <span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Disclaimer</h2>
+<h2 style="color: #C94D00">Disclaimer</h2>
 
 </br></br>
-<h3 style="color: #00C990">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of Abbott Laboratories.</h3>
+<h3 style="color: #C94D00">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of Abbott Laboratories.</h3>
 
 --- &twocol
 
 <footer>
   <hr></hr>
-  <span style="float:right"><FONT COLOR="#71787D" SIZE=3>Economics as a Science</FONT></span>
+  <span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Contents</h2>
+<h2 style="color: #C94D00">Contents</h2>
 
 *** =left
 
-<FONT COLOR="#00C990" SIZE=5><b>I. Introduction</b></FONT>
+<FONT COLOR="#C94D00" SIZE=5><b>I. Introduction</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>The Hellabyte Era</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>"Big Data" is Not the Whole Story</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>8</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>"Big Data" is Not the Whole Story</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>7</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>8</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#00C990" SIZE=5><b>II. Reproducible Research</b></FONT>
+<FONT COLOR="#C94D00" SIZE=5><b>II. What is Science?</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>What is Reproducibility?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>11</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Why Should I Care?</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>12</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Reproducibility Checklist</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>13</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>The Shoulders of Giants</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Big Bertha</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>12</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Is Economics a Science?</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>13</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#00C990" SIZE=5><b>III. Programming Principles</b></FONT>
+<FONT COLOR="#C94D00" SIZE=5><b>III. Doing What we Do Better</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Getting Started</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Reproducibility</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross Validation: The Death of R<sup>2</sup></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>16-19</FONT></span> </li>
 </ol>
 
 *** =right
 
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>The Humble Programmer</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>16</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Introduction to Version Control</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>17</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross-Pollination: Tools from Other Disciplines</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>20-22</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#00C990" SIZE=5><b>IV. Getting & Cleaning Data</b></FONT>
+<FONT COLOR="#C94D00" SIZE=5><b>IV. New Areas: A Seat at the Table</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Data Types/Sources</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>19</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Data Manipulation</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>20</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>IoT/IIoT: New Business Models</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>23</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Block Chain: It's the Economics!</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>24</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>IoT + Block Chain: Smart Contracts</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>25</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Beyond Averages: Complexity & ABM</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>26</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Autonomous Transportation</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>27</FONT></span> </li>
 </ol>
 
-<FONT COLOR="#00C990" SIZE=5><b>V. Statistical Analysis</b></FONT>
+
+<FONT COLOR="#C94D00" SIZE=5><b>V. Conclusion</b></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>28</FONT></span>
+
+<FONT COLOR="#C94D00" SIZE=5><b>VI. Additional Resources</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Tips & Tricks</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>22</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Making & Documenting Decisions</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>23</FONT></span> </li>
-</ol>
+    <li><FONT COLOR="#C94D00" SIZE=4>Tools & Techniques</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>29</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Applications</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>30</FONT></span> </li>
+</ol>    
 
-<FONT COLOR="#00C990" SIZE=5><b>VI. Beautiful, Reproducible Output</b></FONT>
-<ol type="none">
-    <li><FONT COLOR="#71787D" SIZE=4>Deliverable Options</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>25</FONT></span> </li>
-    <li><FONT COLOR="#71787D" SIZE=4>Static Graphics: ggplot2</FONT><span style="float:right"><FONT COLOR="#71787D" SIZE=4>26</FONT></span> </li>
-</ol>
-
---- bg:#3C8C75;
+--- bg:#2554C7;
 
 <h2 style="color: #FFFFFF">Section I.</h2>
 <hr></hr>
@@ -89,35 +88,33 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Economics as a Science</FONT></span>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Personal Introduction</h2>
+<h2 style="color: #C94D00">Personal Introduction</h2>
 
 >- <b>My Marquette Experience:</b>
     - B.S., Economics & Marketing (2013)
     - M.S.A.E., Marketing Research Specialization (2014)
     
 >- <b>Since Marquette:</b>
-    - Analyst @ [IHS Economics](https://www.ihs.com/industry/economics-country-risk.html) in Lexington, MA 2014-2015
     - Analyst @ [Abbott Laboratories](http://www.abbott.com/) in North Chicago, IL 2015-Present
-    - Finished JHU Data Science Specialization [Coursera](https://www.coursera.org/specialization/jhudatascience/1?utm_medium=listingPage)
+    - Analyst @ [IHS Economics](https://www.ihs.com/industry/economics-country-risk.html) in Lexington, MA 2014-2015
+    - Completed 2 Coursera specializations: [JHU Data Science](https://www.coursera.org/specializations/jhu-data-science) | [UMich Python/Web](https://www.coursera.org/specializations/python)
     - Completed 20+ data science and computer science MOOCs
-    
->- <b>Research Interests:</b>
-    - IoT/IIoT --> Confluence of cybernetics, information theory, complex systems, economics, cognitive science. See [here](http://dspace.mit.edu/bitstream/handle/1721.1/86935/EQM%20_%20work%20in%20progress.pdf?sequence=135) for more
-    - Economic Complexity --> Just an observer for now. Guiding Projects: [*Complexity and the Economy*](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&) | [Atlas of Economic Complexity](http://atlas.cid.harvard.edu/) | [Retail as a Complex System](http://www.epjdatascience.com/content/3/1/33)
+    - Co-wrote an EViews add-in to perform time-series cross validation. [GitHub repo](https://github.com/jameslamb/ML4EVIEWS) | [EV Blog](http://blog.eviews.com/2016/04/add-in-round-up-for-2016-q1.html)
+    - Some outside research on IoT/IIoT, 3D printing, logistics, autonomous transportation...specifics to follow soon!
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#00C990" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#71787D" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Economics as a Science</FONT></span>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3>&nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">"Big Data" is Not the Whole Story</h2>
+<h2 style="color: #C94D00">"Big Data" is Not the Whole Story</h2>
 
 <center><img src=".\\assets\\img\\dilbert_big_data.gif"></center>
 <FONT SIZE=2>&nbsp;&nbsp;&nbsp;Image credit: Scott Adams, [May 07, 2008](http://dilbert.com/strip/2008-05-07)</FONT>
@@ -125,16 +122,242 @@ knit        : slidify::knit2slides
 >- <b> Rich Data </b>
     - [Berners-Lee (2014)](http://www.theguardian.com/technology/2014/oct/08/sir-tim-berners-lee-speaks-out-on-data-ownership): How we combine data is more important than how much we have
     - Decision-making is context dependent --> We can rebuild context with [recombinant data](http://www.google.com/patents/US8768873)
-    - Imagine new transactions - [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) --> reduction of information asymmetries 
+    - Imagine new transactions - [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) --> reduction of information asymmetries
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <FONT COLOR="#71787D" SIZE=3>Appendices</FONT></span><span style="float:right"><FONT COLOR="#71787D" SIZE=3>Economics as a Science</FONT></span>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;I. Introduction</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #00C990">Appendix - Key Academic Papers</h2>
+<h2 style="color: #C94D00">Economics in the Age of Big Data</h2>
+
+**From [Einav & Levin (2014)](http://www.sciencemag.org/content/346/6210/1243089.full.pdf?keytype=ref&siteid=sci&ijkey=Jj7wCy7hhth4M):**
+
+>- Economists increasingly using large data sets (private & administrative)
+    > "Economic models bring a simplifying conceptual framework to to help make sense of large data sets"
+    
+>- A major challenge:
+    > "...developing appropriate data management and programming capabilities, as well as designing creative 
+    > and scalable approaches to summarize, describe, and analyze...data sets"
+
+</br></br>
+>- Other Commentary: [Einav (2013)](http://www.stanford.edu/~leinav/pubs/IPE2014.pdf) | [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) | [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf) | [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/)
+
+--- bg:#2554C7;
+
+<h2 style="color: #FFFFFF">Section II.</h2>
+<hr></hr>
+</br></br></br>
+<h2 style="color: #FFFFFF">What is Science?</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">The Shoulders of Giants</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Big Bertha</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Is Economics a Science?</h2>
+
+--- bg:#2554C7;
+
+<h2 style="color: #FFFFFF">Section III.</h2>
+<hr></hr>
+</br></br></br>
+<h2 style="color: #FFFFFF">Doing What We Do Better</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Reproducibility</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+
+--- bg:#2554C7;
+
+<h2 style="color: #FFFFFF">Section IV.</h2>
+<hr></hr>
+</br></br></br>
+<h2 style="color: #FFFFFF">New Areas: A Seat at the Table</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">IoT/IIoT: New Business Models</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Block Chain: It's the Economics!</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">IoT + Block Chain: Smart Contracts</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Beyond Averages: Complexity & ABM</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Autonomous Transportation</h2>
+
+--- bg:#2554C7;
+
+<h2 style="color: #FFFFFF">Section V.</h2>
+<hr></hr>
+</br></br></br>
+<h2 style="color: #FFFFFF">Conclusion</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;V. Conclusion</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Conclusion</h2>
+
+--- bg:#2554C7;
+
+<h2 style="color: #FFFFFF">Section VI.</h2>
+<hr></hr>
+</br></br></br>
+<h2 style="color: #FFFFFF">Additional Resources</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;VI. Additional Resources</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Tools & Techniques</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;VI. Additional Resources</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Applications</h2>
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <FONT COLOR="#C94D00" SIZE=3>Appendices</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Appendix - Key Academic Papers</h2>
 
 The resources listed here have shaped my view of the near-term future of economic thought and the economics profession. I hope you find them as interesting and useful as I did.
 
