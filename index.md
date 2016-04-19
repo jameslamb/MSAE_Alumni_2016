@@ -143,7 +143,7 @@ knit        : slidify::knit2slides
     > "...developing appropriate data management and programming capabilities, as well as designing creative 
     > and scalable approaches to summarize, describe, and analyze...data sets"
 
-</br></br>
+</br></br></br></br>
 >- Other Commentary: [Einav (2013)](http://www.stanford.edu/~leinav/pubs/IPE2014.pdf) | [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf) | [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf) | [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/)
 
 --- bg:#2554C7;
@@ -157,21 +157,50 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">The Shoulders of Giants</h2>
+<h2 style="color: #C94D00">Build to Break</h2>
+
+>- <center><img src="./assets/img/josh_wills_plane.png"></center>
+
+- [Doing Data Science](http://shop.oreilly.com/product/0636920028529.do)
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf;  &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">The Shoulders of Giants</h2>
+
+
+**Science is cumulative**
+
+>- Nate Silver, *The Signal and The Noise*:
+    > "In science, progress is possible. In fact, if one believes in Bayes' theorem, scientific progress is inevitable as predictions are made and as beliefs are tested and refined."
+
+>- [Josh Wills](https://twitter.com/josh_wills) (paraphrased), ODSC East 2015
+    > "You're doing science when you write code that's meant to be read by other people."
+    
+>- W. Brian Arthur, *[Complexity Economics](http://www.santafe.edu/media/workingpapers/13-04-012.pdf)*
+    > "We are in a world where beliefs, strategies, and actions of agents are being "tested" for survival within a situation or outcome or "ecology" that these beliefs, strategies
+and actions together create."
+
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf;  &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
 <h2 style="color: #C94D00">Big Bertha</h2>
+
 
 --- bg:#FFFFFF;
 
