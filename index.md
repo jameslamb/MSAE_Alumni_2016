@@ -177,7 +177,6 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">The Shoulders of Giants</h2>
 
-
 **Science is cumulative**
 
 >- Nate Silver, *The Signal and The Noise*:
@@ -187,9 +186,7 @@ knit        : slidify::knit2slides
     > "You're doing science when you write code that's meant to be read by other people."
     
 >- W. Brian Arthur, *[Complexity Economics](http://www.santafe.edu/media/workingpapers/13-04-012.pdf)*
-    > "We are in a world where beliefs, strategies, and actions of agents are being "tested" for survival within a situation or outcome or "ecology" that these beliefs, strategies
-and actions together create."
-
+    > "We are in a world where beliefs, strategies, and actions of agents are being "tested" for survival within a situation or outcome or "ecology" that these beliefs, strategies and actions together create."
 
 --- bg:#FFFFFF;
 
@@ -201,16 +198,35 @@ and actions together create."
 
 <h2 style="color: #C94D00">Big Bertha</h2>
 
+>- Reproducibility + Modularity = Composibility | [build as you go](https://www.youtube.com/watch?v=XQxtJb4fbdY)
+
+<center><img src="./assets/img/bertha_medium.png"></center>
+
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;II. What is Science?</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
 <h2 style="color: #C94D00">Is Economics a Science?</h2>
+
+>- *The Guardian*: [No](http://www.telegraph.co.uk/finance/comment/10390981/Time-to-stop-this-pretence-economics-is-not-science.html)
+    > "The Nobel prize in economics isn't really a Nobel prize....economics, categorically, is no science."
+    
+>- Greg Mankiw: [Strong Maybe (2006)](http://gregmankiw.blogspot.com/2006/05/scientists-and-engineers.html) | [Maybe (2006)](http://gregmankiw.blogspot.com/2006/05/is-economics-science.html) | [Still Maybe (2013)](http://gregmankiw.blogspot.com/2013/10/yes-economics-is-science.html)
+
+>- Raj Chetty: [Maybe](http://www.nytimes.com/2013/10/21/opinion/yes-economics-is-a-science.html?_r=0)
+    > "...as the availability of data increases, economics will continue to become a more empirical, scientific field."
+    
+>- Bob Shiller: [Yes](https://www.project-syndicate.org/commentary/robert-j--shilleron-whether-he-is-a-scientist)
+    > "...while economics presents its own methodological problems, the basic challenges facing researchers are not fundamentally different from those faced by researchers in other fields."
+
+>- James Lamb: Yes, as some practice it...
+>   - [Hidalgo on complexity](https://www.youtube.com/watch?v=RuM-AtDjuxg)
+>   - [Arthur on technological progress and equilibria](https://www.youtube.com/watch?v=1YHSQeSmSZk)
 
 --- bg:#2554C7;
 
@@ -369,6 +385,18 @@ and actions together create."
 
 <h2 style="color: #C94D00">Tools & Techniques</h2>
 
+- Agent-Based Modeling (ABM): [PyCX](http://casmodeling.springeropen.com/articles/10.1186/2194-3206-1-2) | [NetLogo](https://ccl.northwestern.edu/netlogo/) | [Tesfatsion](http://www2.econ.iastate.edu/tesfatsi/ace.htm)
+- Complexity Economics: [Atlas of Economic Complexity](http://atlas.cid.harvard.edu/book/) | [Niazi: Complex Systems Roadmap](http://casmodeling.springeropen.com/articles/10.1186/2194-3206-1-1) | [Graph databases](http://neo4j.com/developer/graph-db-vs-rdbms/)
+- Machine Learning + Regression: [Tibshirani](http://statweb.stanford.edu/~tibs/lasso/lasso.pdf) | [Regression Trees in R](http://www.statmethods.net/advstats/cart.html)
+- Machine Learning: [Andrew Ng](https://www.coursera.org/learn/machine-learning/) | [ML Mastery](http://machinelearningmastery.com/) | [Practical Predictive Analytics](https://www.coursera.org/learn/predictive-analytics/) | 
+- Nowcasting: [Varian & Choi on Google Trends](http://people.ischool.berkeley.edu/~hal/Papers/2011/ptp.pdf) | [ECB](http://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1564.pdf) | [MIDAS in EViews](http://www.eviews.com/EViews9/ev95midas.html)
+- R: [Microsoft](https://www.edx.org/course/introduction-r-data-science-microsoft-dat204x) | [Johns Hopkins](https://www.coursera.org/specializations/jhu-data-science) | [Datacamp](https://www.datacamp.com/) | [swirl](http://swirlstats.com/)
+- Python: [Codecademy](https://www.codecademy.com/learn/python) | [UMichigan](https://www.coursera.org/specializations/python) | [Rice University](https://www.coursera.org/specializations/computer-fundamentals)
+- Git + Web Stack: [Codecademy](https://www.codecademy.com/learn/learn-git) | [Code SChool](https://try.github.io/levels/1/challenges/1) | [Codecademy](https://www.codecademy.com/learn) | [w3schools](http://www.w3schools.com/)
+- SQL/Databases: [University of Washington](https://www.coursera.org/specializations/data-science)
+- Cross validation: [SK-learn](http://scikit-learn.org/stable/modules/cross_validation.html) | [Hyndman](http://robjhyndman.com/hyndsight/crossvalidation/) | [r-bloggers](http://www.r-bloggers.com/time-series-cross-validation-5/)
+- Conferences: [Open Data Science Conference](http://www.odsc.com/) | [American Economics Association](https://www.aeaweb.org/conference/)
+
 --- bg:#FFFFFF;
 
 <footer>
@@ -378,25 +406,3 @@ and actions together create."
 </footer>
 
 <h2 style="color: #C94D00">Applications</h2>
-
---- bg:#FFFFFF;
-
-<footer>
-  <hr></hr>
-  <FONT COLOR="#C94D00" SIZE=3>Appendices</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
-</footer>
-
-<h2 style="color: #C94D00">Appendix - Key Academic Papers</h2>
-
-The resources listed here have shaped my view of the near-term future of economic thought and the economics profession. I hope you find them as interesting and useful as I did.
-
-- [Arthur (2014)](https://global.oup.com/academic/product/complexity-and-the-economy-9780199334292?cc=us&lang=en&). *Complexity and the Economy*.
-- [Cagle (2014)](http://blogs.avalonconsult.com/blog/generic/ontology-for-fun-and-profit/). Ontology for Fun and Profit.
-- [Datta (2014)](http://dspace.mit.edu/handle/1721.1/86935). Future IoT.
-- [Datta (n.d.)](http://dspace.mit.edu/bitstream/handle/1721.1/41897/WiFi%20Meet%20FuFi%20_%20MIT%20ESD%20WP.pdf?sequence=1). WiFi Meet FuFi: Disruptive Innovation in Logistics Catalysed by Energy.
-- [Einav & Levin (2014)](http://www.sciencemag.org/content/346/6210/1243089.abstract). Economics in the age of big data.
-- [Hausmann & Hidalgo, et. al (2011)](http://atlas.cid.harvard.edu/book/). *The Atlas of Economic Complexity*.
-- [Kahneman (2013)](http://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555). *Thinking, Fast and Slow*.
-- [Varian (2014)](http://people.ischool.berkeley.edu/~hal/Papers/2013/BeyondBigDataPaperFINAL.pdf). Beyond Big Data.
-- [Varian (2013)](http://people.ischool.berkeley.edu/~hal/Papers/2013/ml.pdf). Big Data: New Tricks for Econometrics.
-
