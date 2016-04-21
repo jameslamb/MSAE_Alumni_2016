@@ -311,7 +311,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
 
 <h2 style="color: #C94D00">Big Bertha</h2>
 
-<ul class = "build incremental">
+<ul>
 <li>Reproducibility + Modularity = Composibility | <a href="https://www.youtube.com/watch?v=XQxtJb4fbdY">build as you go</a></li>
 </ul>
 
@@ -383,6 +383,39 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
 
 <h2 style="color: #C94D00">Reproducibility</h2>
 
+<p>Guiding principles for <a href="https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md">conducting reproducible analyses</a>:
+</br></br></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><center><FONT COLOR="#B22222" size=6> DON&#39;T </FONT></center>
+<hr></hr></p>
+
+<ul>
+<li>Save multiple file versions</li>
+<li>Manually edit spreadsheets</li>
+<li>Split/reformat data files</li>
+<li>Download data from a website</li>
+<li><strong>Point and click</strong></li>
+<li>Use 1-letter variable names</li>
+<li>Write huge blocks of procedural code</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><FONT COLOR="#00800" size=6> DO </FONT></center>
+<hr></hr></p>
+
+<ul>
+<li>Use version control</li>
+<li>Use code to manipulate data</li>
+<li>Keep raw data intact</li>
+<li>Write code to read in (if possible)</li>
+<li><strong>Use code</strong></li>
+<li>use mnemonic names</li>
+<li>Keep things modular</li>
+</ul>
+
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -396,6 +429,12 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
 </footer></p>
 
 <h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
+
+<ul>
+<li>when you&#39;re training models with the intent of making predictions, you should choose the model that makes the best predictions</li>
+</ul>
+
+<p><center><img src="./assets/img/simple_smaller.jpg"></center></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -411,6 +450,26 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
 
 <h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
 
+<p><strong>What is Cross-Validation?</strong></p>
+
+<ul class = "build incremental">
+<li>Rob Hyndman - &quot;<a href="http://robjhyndman.com/hyndsight/crossvalidation/">why every statistician should know about cross-validation</a>&quot;</li>
+<li>The basics:
+
+<ul>
+<li>Estimate your model (potentially many times) on <em>some</em> of the data</li>
+<li>Use that model to make predictions on <em>the data you left out</em></li>
+<li>Use that out-of-sample error estimate as a &quot;measure of goodness&quot;</li>
+<li>Repeat for multiple models (different algorithms, tuning parameters)</li>
+<li>Choose as the &quot;best&quot; model the one with the lowest CV error</li>
+</ul></li>
+<li>Applications:
+
+<ul>
+<li>model selection, parameter tuning, confidence assessment</li>
+</ul></li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -419,12 +478,31 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <article data-timings="">
     <p><footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer></p>
 
-<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+<h2 style="color: #C94D00">Shameless Plug</h2>
 
+<p><strong>tscval: An EViews Add-in for Time-Series Cross-Validation</strong></p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <ul>
+<li>see: <a href="https://github.com/jameslamb/ML4EVIEWS">project repo</a> | <a href="http://blog.eviews.com/2016/04/add-in-round-up-for-2016-q1.html">EViews blog</a></li>
+<li>Basic idea: 
+
+<ul>
+<li>rolling estimation and out-of-sample forecasting </li>
+<li>inspired by <a href="http://robjhyndman.com/hyndsight/tscvexample/">Hyndman</a></li>
+</ul></li>
+<li>works with equation and VAR objects</li>
+</ul>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><center><img src="./assets/img/tscval.png"></center></p>
+
+</div>
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -437,13 +515,77 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer></p>
 
-<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+<h2 style="color: #C94D00">Cross-Pollination: Agent-Based Modeling</h2>
+
+<p><strong>Some ABM Examples</strong></p>
+
+<ul>
+<li>Farmer &amp; Foley --&gt; <a href="http://tuvalu.santafe.edu/%7Ejdf/papers/EconomyNeeds.pdf">&quot;The economy needs agent-based modeling&quot;</a></li>
+<li>ABM in economics:
+
+<ul>
+<li><a href="https://www.phy.duke.edu/%7Epalmer/papers/arob98.pdf">Santa Fe Stock Exchange</a></li>
+<li><a href="https://www.youtube.com/watch?v=dFl3Cfw12bo">Schelling&#39;s Segregation Model</a></li>
+<li><a href="http://www.pnas.org/content/99/suppl_3/7280.full.pdf">innovation diffusion, market design</a></li>
+</ul></li>
+<li>Benefits over equation-based modeling (EBM):
+
+<ul>
+<li>breaks away from reliance on averages and claims of &quot;representative agents&quot;</li>
+<li>system description is more natural</li>
+<li>handles nonlinear dynamics in a more flexible way</li>
+<li>identification of non-obvious relationships</li>
+</ul></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-18" style="background:#FFFFFF;;">
+  <article data-timings="">
+    <p><footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer></p>
+
+<h2 style="color: #C94D00">Cross-Pollination: Machine Learning</h2>
+
+<p><strong>What is machine learning?</strong></p>
+
+<ul class = "build incremental">
+<li><p>Andrew Ng, Tom Mitchell:</p>
+
+<blockquote>
+<p>&quot;...a computer program is set to learn from an experience E with respect to some
+task T and some performance measure P if its performance on T as measured by P
+improves with experience E.&quot;</p>
+</blockquote></li>
+<li><p><a href="http://scikit-learn.org/stable/unsupervised_learning.html">unsupervised learning</a></p>
+
+<ul>
+<li>discover structure in the data</li>
+</ul></li>
+<li><p><a href="http://scikit-learn.org/stable/supervised_learning.html">supervised learning</a></p>
+
+<ul>
+<li>classification: predict categorical outcomes</li>
+<li>regression: predict the value of a continuous variable</li>
+</ul></li>
+<li><p><a href="http://scikit-learn.org/stable/modules/ensemble.html">ensembling</a></p>
+
+<ul>
+<li>bagging --&gt; many models, one prediction</li>
+<li>boosting --&gt; handling rare or outlying cases</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-19" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -457,7 +599,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-19" style="background:#2554C7;;">
+<slide class="" id="slide-20" style="background:#2554C7;;">
   <article data-timings="">
     <h2 style="color: #FFFFFF">Section IV.</h2>
 
@@ -470,7 +612,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-20" style="background:#FFFFFF;;">
+<slide class="" id="slide-21" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -484,7 +626,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-21" style="background:#FFFFFF;;">
+<slide class="" id="slide-22" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -498,7 +640,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-22" style="background:#FFFFFF;;">
+<slide class="" id="slide-23" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -512,7 +654,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-23" style="background:#FFFFFF;;">
+<slide class="" id="slide-24" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -526,7 +668,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-24" style="background:#FFFFFF;;">
+<slide class="" id="slide-25" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -540,7 +682,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-25" style="background:#2554C7;;">
+<slide class="" id="slide-26" style="background:#2554C7;;">
   <article data-timings="">
     <h2 style="color: #FFFFFF">Section V.</h2>
 
@@ -553,7 +695,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-26" style="background:#FFFFFF;;">
+<slide class="" id="slide-27" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -566,7 +708,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-27" style="background:#2554C7;;">
+<slide class="" id="slide-28" style="background:#2554C7;;">
   <article data-timings="">
     <h2 style="color: #FFFFFF">Section VI.</h2>
 
@@ -579,7 +721,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-28" style="background:#FFFFFF;;">
+<slide class="" id="slide-29" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -607,7 +749,7 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-29" style="background:#FFFFFF;;">
+<slide class="" id="slide-30" style="background:#FFFFFF;;">
   <article data-timings="">
     <p><footer>
   <hr></hr>
@@ -616,6 +758,29 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
 </footer></p>
 
 <h2 style="color: #C94D00">Applications</h2>
+
+<p><strong>Macro</strong></p>
+
+<ul>
+<li><a href="http://bpp.mit.edu/">Billion Prices Project</a></li>
+<li><a href="http://prattle.co/">Prattle - text analysis of central bank policy</a></li>
+<li><a href="http://atlas.media.mit.edu/en/">Observatory of Economic Complexity</a></li>
+</ul>
+
+<p><strong>Micro</strong></p>
+
+<ul>
+<li><a href="http://streetscore.media.mit.edu/about.html">StreetScore - automated urban development discovery</a></li>
+<li><a href="http://datausa.io/">DataUSA portal</a></li>
+</ul>
+
+<p><strong>Treasure Chest of Datasets/APIs</strong></p>
+
+<ul>
+<li><a href="https://www.quandl.com/">Quandl</a> | <a href="https://www.data.gov/">Data.gov</a> | <a href="https://open.fda.gov/index.html">openFDA</a> | <a href="https://research.stlouisfed.org/docs/api/fred/">FRED API</a></li>
+<li><a href="https://github.com/rOpenGov/eurostat">eurostat</a> | <a href="https://www.undata-api.org/">UN Data API</a> </li>
+<li><a href="https://r-dir.com/reference/datasets.html">all of this stuff</a> | <a href="http://www.kdnuggets.com/datasets/index.html">KDnuggets mega-list</a></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -797,6 +962,12 @@ and scalable approaches to summarize, describe, and analyze...data sets&quot;</p
       <a href="#" target="_self" rel='tooltip' 
         data-slide=29 title='NA'>
          29
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='NA'>
+         30
       </a>
     </li>
   </ul>

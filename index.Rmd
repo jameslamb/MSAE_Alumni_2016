@@ -198,7 +198,7 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Big Bertha</h2>
 
->- Reproducibility + Modularity = Composibility | [build as you go](https://www.youtube.com/watch?v=XQxtJb4fbdY)
+- Reproducibility + Modularity = Composibility | [build as you go](https://www.youtube.com/watch?v=XQxtJb4fbdY)
 
 <center><img src="./assets/img/bertha_medium.png"></center>
 
@@ -235,7 +235,7 @@ knit        : slidify::knit2slides
 </br></br></br>
 <h2 style="color: #FFFFFF">Doing What We Do Better</h2>
 
---- bg:#FFFFFF;
+--- &twocol bg:#FFFFFF;
 
 <footer>
   <hr></hr>
@@ -244,6 +244,35 @@ knit        : slidify::knit2slides
 </footer>
 
 <h2 style="color: #C94D00">Reproducibility</h2>
+
+Guiding principles for [conducting reproducible analyses](https://github.com/jtleek/modules/blob/master/05_ReproducibleResearch/Checklist/index.md):
+</br></br>
+
+*** =left
+
+<center><FONT COLOR="#B22222" size=6> DON'T </FONT></center>
+<hr></hr>
+
+- Save multiple file versions
+- Manually edit spreadsheets
+- Split/reformat data files
+- Download data from a website
+- **Point and click**
+- Use 1-letter variable names
+- Write huge blocks of procedural code
+
+*** =right
+
+<center><FONT COLOR="#00800" size=6> DO </FONT></center>
+<hr></hr>
+
+- Use version control
+- Use code to manipulate data
+- Keep raw data intact
+- Write code to read in (if possible)
+- **Use code**
+- use mnemonic names
+- Keep things modular
 
 --- bg:#FFFFFF;
 
@@ -255,6 +284,11 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
 
+- when you're training models with the intent of making predictions, you should choose the model that makes the best predictions
+
+<center><img src="./assets/img/simple_smaller.jpg"></center>
+
+
 --- bg:#FFFFFF;
 
 <footer>
@@ -265,15 +299,41 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Cross Validation: The Death of R<sup>2</sup></h2>
 
---- bg:#FFFFFF;
+**What is Cross-Validation?**
+
+>- Rob Hyndman - "[why every statistician should know about cross-validation](http://robjhyndman.com/hyndsight/crossvalidation/)"
+>- The basics:
+    - Estimate your model (potentially many times) on *some* of the data
+    - Use that model to make predictions on *the data you left out*
+    - Use that out-of-sample error estimate as a "measure of goodness"
+    - Repeat for multiple models (different algorithms, tuning parameters)
+    - Choose as the "best" model the one with the lowest CV error
+>- Applications:
+    - model selection, parameter tuning, confidence assessment
+
+--- &twocol bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+<h2 style="color: #C94D00">Shameless Plug</h2>
+
+**tscval: An EViews Add-in for Time-Series Cross-Validation**
+
+*** =left
+
+- see: [project repo](https://github.com/jameslamb/ML4EVIEWS) | [EViews blog](http://blog.eviews.com/2016/04/add-in-round-up-for-2016-q1.html)
+- Basic idea: 
+    - rolling estimation and out-of-sample forecasting 
+    - inspired by [Hyndman](http://robjhyndman.com/hyndsight/tscvexample/)
+- works with equation and VAR objects
+
+*** =right
+
+<center><img src="./assets/img/tscval.png"></center>
 
 --- bg:#FFFFFF;
 
@@ -283,17 +343,46 @@ knit        : slidify::knit2slides
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+<h2 style="color: #C94D00">Cross-Pollination: Agent-Based Modeling</h2>
+
+**Some ABM Examples**
+
+- Farmer & Foley --> ["The economy needs agent-based modeling"](http://tuvalu.santafe.edu/~jdf/papers/EconomyNeeds.pdf)
+- ABM in economics:
+    - [Santa Fe Stock Exchange](https://www.phy.duke.edu/~palmer/papers/arob98.pdf)
+    - [Schelling's Segregation Model](https://www.youtube.com/watch?v=dFl3Cfw12bo)
+    - [innovation diffusion, market design](http://www.pnas.org/content/99/suppl_3/7280.full.pdf)
+- Benefits over equation-based modeling (EBM):
+    - breaks away from reliance on averages and claims of "representative agents"
+    - system description is more natural
+    - handles nonlinear dynamics in a more flexible way
+    - identification of non-obvious relationships
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">Cross-Pollination: Tools from Other Disciplines</h2>
+<h2 style="color: #C94D00">Cross-Pollination: Machine Learning</h2>
+
+**What is machine learning?**
+
+>- Andrew Ng, Tom Mitchell:
+    > "...a computer program is set to learn from an experience E with respect to some
+task T and some performance measure P if its performance on T as measured by P
+improves with experience E."
+    
+>- [unsupervised learning](http://scikit-learn.org/stable/unsupervised_learning.html)
+    - discover structure in the data
+>- [supervised learning](http://scikit-learn.org/stable/supervised_learning.html)
+    - classification: predict categorical outcomes
+    - regression: predict the value of a continuous variable
+>- [ensembling](http://scikit-learn.org/stable/modules/ensemble.html)
+    - bagging --> many models, one prediction
+    - boosting --> handling rare or outlying cases
 
 --- bg:#2554C7;
 
@@ -321,6 +410,19 @@ knit        : slidify::knit2slides
 </footer>
 
 <h2 style="color: #C94D00">Block Chain: It's the Economics!</h2>
+
+**What is the block chain?**
+
+>- simple description:
+    > The block chain is a distributed digital ledger that enables secure, trustless, peer-to-peer transactions.
+>- better descriptions:
+    - [minimum viable blockchain](https://www.igvita.com/2014/05/05/minimum-viable-block-chain/)
+    - [IBM Device Democracy](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=XB&infotype=PM&appname=GBSE_GB_TI_USEN&htmlfid=GBE03620USEN&attachment=GBE03620USEN.PDF)
+>- what does this have to do with economics?
+    - obvious answer: it's valuable --> ["Money Keeps Pouring Into Blockchain Startups"](http://qz.com/662596/startups-are-raising-huge-rounds-to-feed-wall-streets-fascination-with-blockchain/)
+    - less obvious: security in the blockchain is based on economics!
+    
+
 
 --- bg:#FFFFFF;
 
@@ -368,6 +470,9 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Conclusion</h2>
 
+
+    
+
 --- bg:#2554C7;
 
 <h2 style="color: #FFFFFF">Section VI.</h2>
@@ -405,4 +510,21 @@ knit        : slidify::knit2slides
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;VI. Additional Resources</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">Applications</h2>
+<h2 style="color: #C94D00">Applications & Datasets</h2>
+
+**Macro**
+
+- [Billion Prices Project](http://bpp.mit.edu/)
+- [Prattle - text analysis of central bank policy](http://prattle.co/)
+- [Observatory of Economic Complexity](http://atlas.media.mit.edu/en/)
+
+**Micro**
+
+- [StreetScore - automated urban development discovery](http://streetscore.media.mit.edu/about.html)
+- [DataUSA portal](http://datausa.io/)
+
+**Treasure Chest of Datasets/APIs**
+
+- [Quandl](https://www.quandl.com/) | [Data.gov](https://www.data.gov/) | [openFDA](https://open.fda.gov/index.html) | [FRED API](https://research.stlouisfed.org/docs/api/fred/)
+- [Eurostat](https://github.com/rOpenGov/eurostat) | [UN Data API](https://www.undata-api.org/) 
+- [all of this stuff](https://r-dir.com/reference/datasets.html) | [KDnuggets mega-list](http://www.kdnuggets.com/datasets/index.html)
