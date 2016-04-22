@@ -19,8 +19,9 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Disclaimer</h2>
 
-</br></br>
 <h3 style="color: #C94D00">This presentation contains the personal commentary of the author. It does not reflect the views or opinions of Abbott Laboratories.</h3>
+
+>- <center><img src="./assets/img/science.png"></center>
 
 --- &twocol
 
@@ -35,46 +36,45 @@ knit        : slidify::knit2slides
 
 <FONT COLOR="#C94D00" SIZE=5><b>I. Introduction</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>6</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>"Big Data" is Not the Whole Story</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>7</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>8</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Personal Introduction</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>5</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>"Big Data" is Not the Whole Story</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>6</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Economics in the Age of Big Data</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>7</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#C94D00" SIZE=5><b>II. What is Science?</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>The Shoulders of Giants</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>11</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Big Bertha</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>12</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Is Economics a Science?</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>13</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Build to Break</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>9</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>The Shoulders of Giants</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>10</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Big Bertha</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>11</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Is Economics a Science?</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>12</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#C94D00" SIZE=5><b>III. Doing What we Do Better</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Reproducibility</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>15</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Cross Validation: The Death of R<sup>2</sup></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>16-19</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Reproducibility</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>14</FONT></span> </li>
 </ol>
 
 *** =right
 
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Cross-Pollination: Tools from Other Disciplines</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>20-22</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross Validation: The Death of R<sup>2</sup></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>15-17</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross-Pollination: Tools from Other Disciplines</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>18-19</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#C94D00" SIZE=5><b>IV. New Areas: A Seat at the Table</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>IoT/IIoT: New Business Models</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>23</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Block Chain: It's the Economics!</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>24</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>IoT + Block Chain: Smart Contracts</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>25</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Beyond Averages: Complexity & ABM</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>26</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Autonomous Transportation</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>27</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>IoT/IIoT</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>21</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Block Chain</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>22</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Autonomous Transportation</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>23</FONT></span> </li>
 </ol>
 
 
-<FONT COLOR="#C94D00" SIZE=5><b>V. Conclusion</b></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>28</FONT></span>
+<FONT COLOR="#C94D00" SIZE=5><b>V. Concluding Remarks</b></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>25-26</FONT></span>
 
 <FONT COLOR="#C94D00" SIZE=5><b>VI. Additional Resources</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Tools & Techniques</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>29</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Applications</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>30</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Tools & Techniques</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>28</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Applications</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>29</FONT></span> </li>
 </ol>    
 
 --- bg:#2554C7;
@@ -163,7 +163,7 @@ knit        : slidify::knit2slides
 
 <h2 style="color: #C94D00">Build to Break</h2>
 
->- <center><img src="./assets/img/josh_wills_plane.png"></center>
+- <center><img src="./assets/img/josh_wills_plane.png"></center>
 
 - [Doing Data Science](http://shop.oreilly.com/product/0636920028529.do)
 
@@ -271,7 +271,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 - Keep raw data intact
 - Write code to read in (if possible)
 - **Use code**
-- use mnemonic names
+- Use mnemonic names
 - Keep things modular
 
 --- bg:#FFFFFF;
@@ -315,7 +315,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -330,6 +330,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
     - rolling estimation and out-of-sample forecasting 
     - inspired by [Hyndman](http://robjhyndman.com/hyndsight/tscvexample/)
 - works with equation and VAR objects
+- available in EViews 9+ via the Add-ins manager
 
 *** =right
 
@@ -362,7 +363,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -395,17 +396,32 @@ improves with experience E."
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
-<h2 style="color: #C94D00">IoT/IIoT: New Business Models</h2>
+<h2 style="color: #C94D00">IoT/IIoT: Creative Destruction</h2>
+
+**Some Business Models Will Die**
+
+- 3D printing will eliminate spare-parts sales
+- 3D printing + cloud will eliminate "stock product" in consumer-facing industries
+- Why would insurers charge fixed premiums when sensor-laden vehicles enable perfect monitoring of driver behavior?
+
+**New Revenue Streams**
+
+- "micro-payments for micro-transactions"
+    - Pay-per-second parking in cities
+- Obsolescence of inventory:
+    - concurrent engineering in the cloud with customer collaboration
+    - Amazon literally [printing your product in a truck on its way to your door](https://3dprint.com/46934/amazon-3d-printing-patent/)
+- Software-defined everything | Everything-as-a-service
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -415,63 +431,96 @@ improves with experience E."
 
 >- simple description:
     > The block chain is a distributed digital ledger that enables secure, trustless, peer-to-peer transactions.
->- better descriptions:
-    - [minimum viable blockchain](https://www.igvita.com/2014/05/05/minimum-viable-block-chain/)
-    - [IBM Device Democracy](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=XB&infotype=PM&appname=GBSE_GB_TI_USEN&htmlfid=GBE03620USEN&attachment=GBE03620USEN.PDF)
->- what does this have to do with economics?
-    - obvious answer: it's valuable --> ["Money Keeps Pouring Into Blockchain Startups"](http://qz.com/662596/startups-are-raising-huge-rounds-to-feed-wall-streets-fascination-with-blockchain/)
-    - less obvious: security in the blockchain is based on economics!
     
-
-
---- bg:#FFFFFF;
-
-<footer>
-  <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
-  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
-</footer>
-
-<h2 style="color: #C94D00">IoT + Block Chain: Smart Contracts</h2>
+>- better descriptions:
+    - [minimum viable blockchain](https://www.igvita.com/2014/05/05/minimum-viable-block-chain/) | [IBM Device Democracy](http://www-01.ibm.com/common/ssi/cgi-bin/ssialias?subtype=XB&infotype=PM&appname=GBSE_GB_TI_USEN&htmlfid=GBE03620USEN&attachment=GBE03620USEN.PDF)
+    
+>- Security in the block chain comes from good economics:
+    - Transactions must be peer-verified
+    - Users verify with "proof-of-work" that is costly (in terms of computational time)
+    - Users earn small fees for verifying transactions...they make a profit by verifying "blocks" of transactions
+    - Higher "margins" attract malicious actors...lower "margins" suck value from the market
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
-  <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
-</footer>
-
-<h2 style="color: #C94D00">Beyond Averages: Complexity & ABM</h2>
-
---- bg:#FFFFFF;
-
-<footer>
-  <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;IV. New Areas: A Seat at the Table</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
 <h2 style="color: #C94D00">Autonomous Transportation</h2>
+
+**Moving Products**
+
+- Autonomous long-haul freight could widen the radius of 1-day deliveries
+    - Lightens inventory burden
+- [Software-defined supply chain](http://www-935.ibm.com/services/multimedia/The_new_software-defined_supply_chain_Exec_Report.pdf):
+    - the era of the multi-tiered global supply chain will end
+    - replaced with compositions of locally-optimized small transportation networks
+    - ["digital twins"](https://dspace.mit.edu/bitstream/handle/1721.1/86935/TBS-VERY-FUNNY.pdf?sequence=264) allow for complex simulations, testing strategies
+    
+**Moving People**
+
+- will you own a car 10 years from now? 30? 50?
+- we could replace traffic lights with [slot-based intersections](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149607):
+    - could double the capacity of our current road system
+    - reduce traffic time uncertainty
 
 --- bg:#2554C7;
 
 <h2 style="color: #FFFFFF">Section V.</h2>
 <hr></hr>
 </br></br></br>
-<h2 style="color: #FFFFFF">Conclusion</h2>
+<h2 style="color: #FFFFFF">Concluding Remarks</h2>
 
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <FONT COLOR="#C94D00" SIZE=3> &nbsp;V. Conclusion</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;V. Concluding Remarks</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
 <h2 style="color: #C94D00">Conclusion</h2>
 
+</br>
+The next time your find yourself economics-ing around, ask:
 
-    
+</br></br></br></br>
+<center>*does this feel like science?*</center>
+</br></br></br></br></br></br></br>
+I hope that the answer is yes!
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;V. Concluding Remarks</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Thank You for Your Time</h2>
+
+</br></br>
+
+<center><b>Questions? Comments? Profanity-Laced Criticisms?</b></center>
+
+</br>
+
+ <center>[jaylamb20@gmail.com](jaylamb20@gmail.com) | [Twitter](https://twitter.com/_jameslamb) | [LinkedIN](https://www.linkedin.com/in/jameslamb1) | [GitHub](https://github.com/jameslamb)</center>
+ 
+</br></br>
+
+<center><b>Not sure what you said, but the slides looked nice!</b></center>
+
+</br>
+
+<center>Umm thanks? You can click through the slides [here](http://jameslamb.github.io/MSAE_Alumni_2016/index.html#1) or view the raw code [here](https://github.com/jameslamb/MSAE_Alumni_2016).
+
+</br>
+
+
 
 --- bg:#2554C7;
 
