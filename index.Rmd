@@ -57,24 +57,25 @@ knit        : slidify::knit2slides
 *** =right
 
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Cross Validation: The Death of R<sup>2</sup></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>15-17</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Cross-Pollination: Tools from Other Disciplines</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>18-19</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Modularity</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>15</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross Validation: The Death of R<sup>2</sup></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>16-18</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Cross-Pollination: Tools from Other Disciplines</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>19-20</FONT></span> </li>
 </ol>
 
 <FONT COLOR="#C94D00" SIZE=5><b>IV. New Areas: A Seat at the Table</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>IoT/IIoT</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>21</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Block Chain</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>22</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Autonomous Transportation</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>23</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>IoT/IIoT</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>22</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Block Chain</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>23</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Autonomous Transportation</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>24</FONT></span> </li>
 </ol>
 
 
-<FONT COLOR="#C94D00" SIZE=5><b>V. Concluding Remarks</b></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>25-26</FONT></span>
+<FONT COLOR="#C94D00" SIZE=5><b>V. Concluding Remarks</b></FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>26-27</FONT></span>
 
 <FONT COLOR="#C94D00" SIZE=5><b>VI. Additional Resources</b></FONT>
 <ol type="none">
-    <li><FONT COLOR="#C94D00" SIZE=4>Tools & Techniques</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>28</FONT></span> </li>
-    <li><FONT COLOR="#C94D00" SIZE=4>Applications</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>29</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Tools & Techniques</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>29</FONT></span> </li>
+    <li><FONT COLOR="#C94D00" SIZE=4>Applications</FONT><span style="float:right"><FONT COLOR="#C94D00" SIZE=4>30</FONT></span> </li>
 </ol>    
 
 --- bg:#2554C7;
@@ -239,7 +240,7 @@ knit        : slidify::knit2slides
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -278,7 +279,25 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
+</footer>
+
+<h2 style="color: #C94D00">Modularity</h2>
+
+- modularity enables complex problem-solving
+
+<center><img src="./assets/img/cell.png"></center>
+
+>- Prokaryote (simple organisms): disogranized soup of random nonsense
+>- Eurkaryote (plants & animals): specialized organelles w/in cells; 
+    - well-structured cells composible into organs, systems
+
+--- bg:#FFFFFF;
+
+<footer>
+  <hr></hr>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -288,12 +307,11 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <center><img src="./assets/img/simple_smaller.jpg"></center>
 
-
 --- bg:#FFFFFF;
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -315,7 +333,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -340,7 +358,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cb;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -363,7 +381,7 @@ Guiding principles for [conducting reproducible analyses](https://github.com/jtl
 
 <footer>
   <hr></hr>
-  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
+  <span><FONT COLOR="#C94D00" SIZE=3>&#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf; &#x25cf;</FONT>
   <FONT COLOR="#C94D00" SIZE=3> &nbsp;III. Doing What We Do Better</FONT></span><span style="float:right"><FONT COLOR="#C94D00" SIZE=3>Economics as a Science</FONT></span>
 </footer>
 
@@ -502,25 +520,20 @@ I hope that the answer is yes!
 
 <h2 style="color: #C94D00">Thank You for Your Time</h2>
 
-</br></br>
-
-<center><b>Questions? Comments? Profanity-Laced Criticisms?</b></center>
-
 </br>
 
- <center>[jaylamb20@gmail.com](jaylamb20@gmail.com) | [Twitter](https://twitter.com/_jameslamb) | [LinkedIN](https://www.linkedin.com/in/jameslamb1) | [GitHub](https://github.com/jameslamb)</center>
+<b>Questions? Comments? Profanity-Laced Criticisms?</b>
+
+- email --> jaylamb20@gmail.com
+- Twitter --> @_jameslamb
+- LinkedIn --> [https://www.linkedin.com/in/jameslamb1](https://github.com/jameslamb)
+- GitHub --> [https://github.com/jameslamb](https://github.com/jameslamb)
  
-</br></br>
-
-<center><b>Not sure what you said, but the slides looked nice!</b></center>
-
 </br>
 
-<center>Umm thanks? You can click through the slides [here](http://jameslamb.github.io/MSAE_Alumni_2016/index.html#1) or view the raw code [here](https://github.com/jameslamb/MSAE_Alumni_2016).
+<b>Not sure what you said, but the slides looked nice!</b>
 
-</br>
-
-
+- Thanks! They're at [https://jameslamb.github.io/MSAE_Alumni_2016/index.html#1](https://jameslamb.github.io/MSAE_Alumni_2016/index.html#1)
 
 --- bg:#2554C7;
 
